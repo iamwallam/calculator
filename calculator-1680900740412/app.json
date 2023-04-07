@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "calculator",
+    "scheme": "untitled-app",
+    "description": "My app powered by Draftbit",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.6.0",
+    "orientation": "default",
+    "icon": "./assets/app/icon.png",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#5A45FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.draftbit.untitledapp",
+      "supportsTablet": false,
+      "buildNumber": "1.6.0",
+      "infoPlist": {},
+      "usesIcloudStorage": false
+    },
+    "android": {
+      "versionCode": 6,
+      "package": "com.draftbit.untitledapp",
+      "permissions": []
+    },
+    "web": {
+      "themeColor": "#000000"
+    },
+    "notification": {
+      "androidMode": "default"
+    }
+  }
+}
